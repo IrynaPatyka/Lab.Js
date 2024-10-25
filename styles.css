@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff9ee;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    width: 80%;
+    margin: 0 auto;
+    color: #3757b4; /* Колір тексту */
+}
+
+.header {
+    text-align: center; /* Центруємо заголовки */
+    margin-bottom: 50px; /* Відстань між заголовком і рештою контенту */
+}
+
+.main-content {
+    display: flex; /* Використовуємо flexbox для основного контенту */
+    align-items: flex-start; /* Вирівнюємо по верхньому краю */
+}
+
+.profile-picture {
+    width: 350px; /* Розмір фото */
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #f0f0f0;
+    margin-left: 30px; /* Відстань ліворуч */
+    margin-right: 20px; /* Відстань між фото і лінією */
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vertical-divider {
+    width: 2px; /* Товщина вертикальної лінії */
+    background-color: #8a663f; /* Колір вертикальної лінії */
+    height: 400px; /* Висота вертикальної лінії */
+    margin-left: 200px; /* Відстань ліворуч */
+    margin-right: 10px; /* Відстань з правого боку */
+}
+
+.info {
+    text-align: left; /* Вирівнюємо текст зліва */
+    color: #000000; /* Колір тексту */
+    margin-left: 90px; /* Збільшений лівий відступ для зміщення тексту праворуч */
+}
+
+.info h3 {
+    font-size: 1.5em; /* Збільшений шрифт заголовка */
+    margin-bottom: 15px; /* Відстань між заголовком і списком */
+}
+
+.info ul {
+    font-size: 1.2em; /* Збільшений шрифт для списку */
+    margin-top: 0; /* Прибираємо верхній відступ у списку */
+    padding-left: 20px; /* Відступ для списку */
+}
+
+.info ul li {
+    margin-bottom: 15px; /* Відстань між елементами списку */
+}
+
+.divider {
+    width: 100%;
+    height: 2px; /* Товщина риски */
+    background-color: #8a663f; /* Колір риски */
+    margin: 40px 0; /* Відстань з обох боків */
+}
+
+.contact-info {
+    text-align: left; /* Вирівнюємо текст зліва */
+    color: #000000; /* Колір тексту */
+    margin-top: 20px; /* Відстань між фото і контактною інформацією */
+}
+
+.contact-info p {
+    margin-bottom: 10px; /* Відстань між параграфами */
+}
+
+.section {
+   
+    padding: 20px; /* Внутрішні відступи */
+    border-radius: 8px; /* Закруглені краї */
+    margin-bottom: 20px; /* Відстань між секціями */
+}
+
+h3 {
+    font-size: 1.6em; /* Збільшений шрифт заголовка */
+    text-align: center; /* Центруємо заголовок */
+    margin-bottom: 10px; /* Відстань між заголовком і списком */
+    color: #3757b4; /* Колір заголовка */
+}
+
+h4 {
+    font-size: 1.4em; /* Розмір підзаголовків */
+    text-align: center; /* Центруємо заголовок */
+    margin-top: 15px; /* Відстань перед підзаголовком */
+}
+
+.education ul, .organization-work ul {
+    font-size: 1.2em; /* Збільшений шрифт для списку */
+    margin-top: 0; /* Прибираємо верхній відступ у списку */
+    padding-left: 20px; /* Відступ для списку */
+}
+
+.education ul li, .organization-work ul li {
+    margin-bottom: 10px; /* Відстань між елементами списку */
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #8a663f; /* Колір лінії */
+    margin: 10px 0; /* Відстань навколо лінії */
+}
+
+.center-button {
+    display: block; /* Робимо кнопку блочним елементом */
+    width: 200px; /* Встановлюємо ширину кнопки */
+    margin: 20px auto; /* Встановлюємо верхній/нижній відступ та автоматичний відступ з боків */
+    text-align: center; /* Центруємо текст кнопки */
+    background-color: #3757b4; /* Колір фону кнопки */
+    color: #fff; /* Колір тексту кнопки */
+    padding: 10px; /* Внутрішні відступи */
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Закруглення країв */
+    text-decoration: none; /* Прибираємо підкреслення */
+}
+
+.center-button:hover {
+    background-color: #29499e; /* Зміна кольору фону при наведенні */
+}
+
+.footer {
+    text-align: center; /* Центруємо текст футера */
+    margin-top: 50px; /* Відстань над футером */
+    padding: 20px; /* Внутрішні відступи */
+    background-color: #fff9ee; /* Колір фону футера */
+    color: #3757b4; /* Колір тексту футера */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #8a663f; /* Лінія вгорі футера */
+   
+    font-size: 1.1em; /* Збільшений шрифт */
+}
+
+
+
+
+.organization-work {
+    margin-top: 40px;
+    color: #333; /* Основний колір тексту */
+}
+
+.year-section {
+    margin-bottom: 20px; /* Відстань між роками */
+    border: 2px solid #8a663f; /* Лінія навколо секцій */
+    border-radius: 8px; /* Закруглення кутів */
+    padding: 15px; /* Внутрішні відступи */
+}
+
+.year-section h4 {
+    font-size: 1.4em; /* Збільшений шрифт для заголовків років */
+    margin-bottom: 10px; /* Відстань під заголовком року */
+    color: #3757b4; /* Колір заголовка року */
+}
+
+.organization-work ul {
+    list-style-type: disc; /* Позначка для елементів списку */
+    padding-left: 20px; /* Відступ для списку */
+}
+
+.organization-work ul li {
+    margin-bottom: 5px; /* Відстань між елементами списку */
+}
+.black-text {
+    color: #000; /* Чорний колір тексту */
+    font-size: 1.1em;
+    text-align: justify;
+}
+h3, h4 {
+    font-family: Georgia, serif; /* Шрифт для заголовків */
+}
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column; /* Переключаємо на вертикальне розташування */
+        align-items: center; /* Центруємо елементи по горизонталі */
+    }
+
+    .profile-picture {
+        margin-left: 0; /* Прибираємо лівий відступ */
+        margin-right: 0; /* Прибираємо правий відступ */
+    }
+
+    .vertical-divider {
+        display: none; /* Прибираємо вертикальну лінію на малих екранах */
+    }
+
+    .info {
+        margin-left: 0; /* Прибираємо лівий відступ */
+        text-align: center; /* Центруємо текст */
+    }
+
+    .info ul {
+        padding-left: 0; /* Прибираємо відступ у списку */
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-container {
+        width: 90%; /* Зменшуємо ширину контейнера */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Зменшуємо розмір заголовка */
+    }
+
+    h4 {
+        font-size: 1.2em; /* Зменшуємо розмір підзаголовка */
+    }
+
+    .section {
+        padding: 15px; /* Зменшуємо внутрішні відступи секцій */
+    }
+
+    .center-button {
+        width: 150px; /* Зменшуємо ширину кнопки */
+    }
+}
